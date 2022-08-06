@@ -1,0 +1,104 @@
+@media only screen and (max-width:1150px) {
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 490px;
+        transition: all 0.7s ease-out;
+    }
+
+    .rightNav {
+        text-align: center;
+    }
+
+    #login {
+        align-items: center;
+        font-size: 2rem;
+        padding-left: 0rem;
+        color: #fff;
+        cursor: pointer;
+    }
+
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .secondHalf img {
+        width: 8rem;
+        height: 8rem;
+        border: 2px solid rgb(47, 45, 45);
+        border-radius: 100px;
+        margin-bottom: 7px;
+    }
+
+    .form {
+        max-width: 65%;
+        margin: 28px auto;
+    }
+
+    .section {
+        height: auto;
+        flex-direction: column-reverse;
+    }
+
+    .section-left {
+        height: auto;
+    }
+
+    .text-big {
+        text-align: center;
+    }
+
+    .text-small {
+        text-align: center;
+    }
+
+    .btn {
+        text-align: center;
+    }
+
+    .button {
+        margin-top: 4px;
+        text-align: center;
+    }
+
+    .thumbnail img {
+        width: 10rem;
+        height: 10rem;
+        border: 2px solid gray;
+        margin-top: 40px;
+        border-radius: 50px;
+    }
+
+    .thumbnail1 img {
+        width: 10rem;
+        height: 10rem;
+        border: 2px solid gray;
+        margin-top: 40px;
+        border-radius: 50px;
+    }
+
+    .thumbnail2 img {
+        width: 10rem;
+        height: 10rem;
+        border: 2px solid gray;
+        margin-top: 25px;
+        border-radius: 50px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav-resp {
+        height: 65px;
+    }
+
+    .v-class-resp {
+        opacity: 0;
+    }
+}
